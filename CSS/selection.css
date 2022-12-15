@@ -1,0 +1,94 @@
+/*ширина первого фото */
+.container img {
+    width: 1170px;
+}
+/*отступ сверху и центрирование всех залов*/
+.description-r {
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 26px;
+}
+/*размер изображений всех залов и отступы между ними*/
+.description-r img {
+    width: 340px;
+    padding: 15px;
+}
+/*эффект изображений с рамкой и тенью*/
+.description-r img:hover {
+    box-shadow: 0.5em 0.5em 5px rgba(122,122,122,0.5);
+    transform: scale(1.1);
+    border: 3px solid #e74307;
+}
+/*заголовок выбери лучший тариф*/
+.container h3 {
+    color: #551a8a;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*карточки тарифов в линию*/
+.description-t {
+    display: flex;
+    margin-left: -12px;
+    width: 1216px;
+}
+/*ширина всех карточек тарифа*/
+.description-class, .description-optimal, .description-max {
+    margin: 35px;
+}
+/*тариф классический*/
+.description-class, .description-optimal, .description-max {
+    border: 3px solid coral;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 15px;
+    margin-top: 35px;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+/*заголовок классический*/
+.description-class h4, .description-optimal h4, .description-max h4{
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #1a53a9;
+}
+/*кнопка Консультация по тарифам*/
+.btn {
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding:  7px 20px;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: italic;
+    color: #551a8a;
+    margin-left: 360px;
+}
+/*фраза : что входит в стоимость ?*/
+.about .container {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: coral;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-bottom: 2px;
+}
+/*кнопка Бронировать*/
+.booking a {
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: italic;
+    color: #551a8a;
+    margin-left: 918px;
+}

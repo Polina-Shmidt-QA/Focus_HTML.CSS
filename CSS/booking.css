@@ -1,0 +1,100 @@
+/*выбери бронирование*/
+.bron p {
+    margin-top: 60px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background: coral;
+    color: white;
+    padding: 15px 17px;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: center;
+}
+/*зоголовок ваш зал*/
+.description h5 {
+    color: #1a53a9;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 0.1em;
+}
+/*свойства и расположение*/
+.description-z {
+    display: flex;
+    border: 3px solid coral;
+    padding: 10px;
+    border-radius: 15px;
+}
+.description-z img {
+    width: 48%;
+    padding-left: 15px;
+    text-align: center;
+}
+/*рассчет стоимости*/
+ul {
+    margin-top: 40px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: left;
+    color: coral;
+    margin-bottom: 60px;
+}
+/*стиль ввода данных на бронирование*/
+.form-search {
+    width: 500px;
+    padding: 35px;
+    margin-bottom: 40px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 3px solid coral;
+    border-radius: 17px;
+    font-style: italic;
+    text-align: center;
+}
+/* Стиль ввода в отправную форму*/
+.form-search input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+/*фотма заполнение и карта в одну линию*/
+.carta-search {
+    display: flex;
+}
+/*карта*/
+.draw img {
+    width: 520px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+/*адрес под картой*/
+.draw p {
+    margin-left: 70px;
+    color: #551a8a;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 1.7em;
+}
+/*зоголовок "остались вопросы ??"*/
+.vopros-y p {
+    margin-top: 60px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background: coral;
+    color: white;
+    padding: 15px 17px;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: center;
+}

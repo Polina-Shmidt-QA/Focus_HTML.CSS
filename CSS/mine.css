@@ -1,0 +1,330 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-size: 17px;
+    background-color: rgb(233, 241, 255);
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+/*стиль header*/
+.header {
+    padding-top: 22px;
+    list-style-type: none;
+}
+/*логотип*/
+.container li {
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    filter: blur(0.3px);
+    margin-left: 0;
+    font-style: italic;
+}
+/*меню*/
+.menu a {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-right: 60px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: #1a53a9;
+}
+.menu a:hover {
+    border-bottom: 3px solid #71affe;
+}
+.tel {
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+/*это кнопка с фиксированной позцией, вверх*/
+.topbutton {
+    width: 42px;
+    border: 3px solid #3498db;
+    background: rgba(255, 241, 235, 0.99);
+    text-align:center;
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    position:fixed;
+    bottom:50px;
+    right:10px;
+    cursor:pointer;
+    color: #551a8a;
+    font-family: 'Anton', sans-serif;
+    font-size:14px;
+    border-radius: 25px;
+}
+/*секция offer*/
+h1 {
+    padding: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+/*цель компании*/
+.offer p {
+    margin-top: 60px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    background: coral;
+    color: white;
+    padding: 15px 17px;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: center;
+}
+/*девиз компании сделай жизнь ярче*/
+.offer h1 {
+    width: 360px;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    color: coral;
+}
+/*кнопка узнать больше*/
+.offer .btn {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding:  7px 7px;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    width: 238px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: italic;
+    color: #551a8a;
+}
+/*эффект кнопки узнать больше*/
+.btn:hover {
+    box-shadow: 0.5em 0.5em 5px rgba(122,122,122,0.5);
+    transform: scale(1.1);
+}
+/*оффер контейнер слева , столбец*/
+.offer-left {
+    text-align: left;
+    width: 320px;
+    position: absolute;
+}
+.offer-right a {
+    padding-left: 1110px;
+    color: #3498db;
+}
+/*стиль шрифта круглых кнопок соц сетей*/
+.fa {
+    padding: 10px;
+}
+/*эффект наведения на кнопки соц сетей*/
+.fa:hover {
+    opacity: 0.7;
+}
+/*первая фотография девушки, которая сидит*/
+.photo {
+   margin-top: 10px;
+}
+/*зоголовок О студии*/
+.container h2 {
+    color: #551a8a;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*опиание студии*/
+.about-us p {
+    color: #e74307;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+/*фраза : что предлагает фотостудия ?*/
+.about .container {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: coral;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+/*слово Фокус, как ссылка .слово из фразы, что предлагает фотостудия */
+h3 a {
+    color: #551a8a;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 0.3em;
+}
+/*список услуг фотостудии*/
+ul{
+    margin-top: -20px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 2em;
+    text-align: left;
+    color: coral;
+}
+/*!*маркеровка списка услуг голочками*!*/
+ul > li:before{
+    content: '✔';
+    position: absolute; top: 0; left: -40px;
+    color: #551a89;
+}
+/*слово 'читать здась' как ссылка на поиск*/
+.container-left-text a {
+    color: #551a8a;
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-left: 4px;
+}
+/*закрыте акции и дополнительные услугу*/
+.container h4 {
+    font-size: 20px;
+    color: #e74307;
+    margin-top: -15px;
+}
+/*фраза подписка на акции*/
+.container label {
+    font-size: 17px;
+    color: coral;
+    margin-left: 3px;
+}
+/* отступы внутри контейнеров с полями для ввода данных */
+.container {
+    padding: 20px;
+}
+/* Стиль входных элементов и кнопки отправки */
+.container input {
+/*[type=text], input[type=tel], input[type=email] {*/
+    width: 20%;
+    padding: 12px;
+    display: inline;
+    box-sizing: border-box;
+}
+/* квадратная кнопка с галочкой */
+input[type=checkbox] {
+    margin-right: 12px;
+    margin-left: 4px;
+    width: 17px;
+    height: 17px;
+    border-radius: 7px;
+}
+/* Стиль кнопки "Регистрация" */
+input[type=submit] {
+    background-color: white;
+    color: #551a8a;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding:  7px 7px;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    width: 238px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: italic;
+}
+/*эффект кнопки "Регестрация"*/
+input[type=submit]:hover {
+    box-shadow: 0.5em 0.5em 5px rgba(122,122,122,0.5);
+    transform: scale(1.1);
+}
+/*галерея фотографий*/
+/* Скрыть изображения по умолчанию */
+.container .mySlides {
+    display: none;
+}
+/* При наведении курсора  черный цвет фона с небольшим количеством прозрачного */
+.gallery .prev:hover,
+.gallery .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*  эффект прозрачности для миниатюрных изображений */
+.gallery .demo {
+    opacity: 0.6;
+}
+.gallery .active,
+.gallery .demo:hover {
+    opacity: 1;
+}
+/*кнопка выбери, что нравится*/
+.choice a {
+    display: inline-block;
+    background-color: white;
+    color: #551a8a;
+    letter-spacing: 0.1em;
+    padding:  10px 10px;
+    border: 4px solid #3498db;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: italic;
+}
+.choice a {
+    margin-top: 45px;
+    margin-left: 289px;
+    padding: 25px;
+    display: inline;
+    font-size: 27px;
+}
+.choice a {
+    margin-top: 45px;
+    margin-left: 289px;
+    padding: 25px;
+    display: inline;
+    font-size: 27px;
+}
+.container-e a {
+    background-color: coral;
+    padding-left: 550px;
+    padding-right: 615px;
+    margin-top: 50px;
+    direction: unset;
+    box-shadow: none;
+}
+/*стиль footer*/
+.footer {
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+/*название компании*/
+.container-f {
+    padding-left: 450px;
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+    filter: blur(0.3px);
+    margin-left: 0;
+    font-style: italic;
+}
+/*меню*/
+.menu-f a {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-right: 60px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: #1a53a9;
+    font-style: normal;
+}
+.menu-f a:hover {
+    border-bottom: 3px solid #71affe;
+}
+.tel-f {
+    text-decoration: none;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    margin-bottom: 27px;
+}
+.nav-f {
+    display: flex;
+    align-items: center;
+}
